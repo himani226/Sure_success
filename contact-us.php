@@ -92,7 +92,7 @@
                                     <!-- menu -->
                                     <nav class="main-menu menu-mobile" id="menu">
                                         <ul class="menu">
-                                            <li class="mega-menu-item active">
+                                            <li class="mega-menu-item ">
                                                 <a href="#">Home</a>
                                                
                                             </li>
@@ -130,7 +130,7 @@
                                               <li class="mega-menu-item">
                                                 <a href="contact-us.html">Gallery</a>
                                             </li>
-                                            <li class="mega-menu-item">
+                                            <li class="mega-menu-item active">
                                                 <a href="contact-us.html">Contact us</a>
                                             </li>
                                         </ul>
@@ -151,7 +151,6 @@
             <!-- site-header-menu end-->
         </header><!-- header end -->
 
-
         <!-- page-title -->
         <div class="jaz-titlebar-wrapper jaz-bg">
             <div class="jaz-titlebar-wrapper-bg-layer jaz-bg-layer"></div>
@@ -161,7 +160,7 @@
                         <div class="col-lg-12">
                             <div class="jaz-page-title-row-heading">
                                 <div class="page-title-heading">
-                                    <h2 class="title">Study in Australia</h2>
+                                    <h2 class="title">Contact Us</h2>
                                 </div>
                                 <div class="breadcrumb-wrapper">
                                     <i class="flaticon-home"></i>
@@ -169,9 +168,7 @@
                                         <a title="Homepage" href="index.html">Home</a>
                                     </span>
                                     <div class="jaz-sep"> - </div>
-                                    <span>Study Abroad</span>
-									<div class="jaz-sep"> - </div>
-									 <span>Study in Australia</span>
+                                    <span>Contact Us</span>
                                 </div>
                             </div>
                         </div>
@@ -184,231 +181,153 @@
         <!--site-main start-->
         <div class="site-main">
 
-            <!-- sidebar-top-section -->
-            <div class="jaz-row padding_zero-section sidebar-top-section bg-layer-equal-height bg-base-grey clearfix">
+            <!-- contact-form-section -->
+            <section class="jaz-row padding_bottom_zero-section contact-us-contact-form-section clearfix">
                 <div class="container">
-                    <div class="slick_slider row g-0" data-slick='{"slidesToShow": 6, "slidesToScroll": 1, "arrows":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":1200,"settings":{"slidesToShow": 5}}, {"breakpoint":1024,"settings":{"slidesToShow": 4}}, {"breakpoint":777,"settings":{"slidesToShow": 3}}, {"breakpoint":575,"settings":{"slidesToShow": 2}}, {"breakpoint":420,"settings":{"slidesToShow": 1}}]}'>
-                        <div class="col-lg-12">
-                            <div class="sidebar-top">
-                                <ul class="service-nav-menu">
-                                    <li class="active"><a href="job-visa.html">Intro</a></li>
-                                </ul>
+                    <div class="row g-0">
+                        <div class="col-lg-6">
+                            <div class="col-bg-img-thirty-seven jaz-bg jaz-col-bgimage-yes col-bg-img-six">
+                                <div class="jaz-col-wrapper-bg-layer jaz-bg-layer"></div>
+                                <div class="layer-content"></div>                           
                             </div>
+                            <img class="img-fluid jaz-equal-height-image" src="images/bg-image/col-bgimage-37.png" alt="col-bgimage-37">
                         </div>
-                        <div class="col-lg-12">
-                            <div class="sidebar-top">
-                                <ul class="service-nav-menu">
-                                    <li><a href="business-visa.html">Benefits</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="sidebar-top">
-                                <ul class="service-nav-menu">
-                                    <li><a href="diplomatic-visa.html">Visa Process </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="sidebar-top">
-                                <ul class="service-nav-menu">
-                                    <li><a href="worker-visa.html">Why Choose Us?</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                       
-                        
-                    </div>
-                </div>
-            </div>
-            <!-- sidebar-top-section-end -->
+                        <div class="col-lg-6">
+                            <div class="bg-base-grey spacing-25">
+                                <!-- section title -->
+                                <div class="section-title style7">
+                                    <div class="title-header">
+                                        <h2 class="title">Have be any question? <br>feel free to <span>Contact</span></h2>
+                                    </div>
+                                </div><!-- section title end -->
 
-            <!-- services01-first-section -->
-            <section class="jaz-row services01-first-section clearfix">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="bg-base-grey spacing-19">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="spacing-20">
-                                            <div class="service-title">
-                                                <div class="service-header">
-                                                    <h3>Study in Australia</h3>
-                                                </div>
-                                                <div class="service-desc">
-                                                    <p class="mb-20">At Sure Success Education Education & Immigration Consultant. We offer Australia  rich and diverse learning experience, with its world-class universities, stunning landscapes, and vibrant culture. Discover the wonder of this fascinating 
-                                                        country while gaining an international education that will set you apart in today's global society.</p>
-                                                </div>
-                                            </div>
+                                <?php
+                                    if (isset($_GET['status'])) {
+                                        if ($_GET['status'] === 'success') {
+                                            echo '<p style="color: green;">Thank you for contacting us! Will contact you soon</p>';
+                                        } elseif ($_GET['status'] === 'error') {
+                                            echo '<p style="color: red;">Oops! Something went wrong. Please try again later.</p>';
+                                        }
+                                    }
+                                 ?>
+                                <form action="contact.php" class="contact_form clearfix" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">                  
+                                            <input name="name" type="text" name="name" value="" placeholder="Your Full Name" required="required">
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <input name="email" type="text" name="email" value="" placeholder="Email Address" required="required">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <select id="selectbox" name="option">
+                                                <option value="sa">Study Abroad</option>
+                                                <option value="tv">Tourist Visa</option>
+                                                <option value="cs">Consultancy Services</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <textarea name="message" rows="4" placeholder="Your Message" required="required"></textarea>
+                                        </div>
+                                        <div class="mt-5">
+                                            <button class="submit jaz-btn jaz-btn-size-md jaz-btn-shape-round jaz-btn-style-fill jaz-btn-color-skincolor" type="submit" value="submit">Submit Here</button> 
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="jaz-bg jaz-col-bgimage-yes col-bg-img-twenty-five z-index-2">
-                                            <div class="jaz-col-wrapper-bg-layer jaz-bg-layer"></div>
-                                            <div class="layer-content">
-                                            </div>
-                                        </div>
-                                        <img class="img-fluid jaz-equal-height-image" src="images/study_canada1.jpg" alt="study in canada">
-                                    </div>
-                                </div>
-                                <div class="row mt-50 res-991-mt-30">                                    
-                                    <div class="col-lg-6">
-                                        <div class="jaz-bg jaz-col-bgimage-yes col-bg-img-twenty-six z-index-2">
-                                            <div class="jaz-col-wrapper-bg-layer jaz-bg-layer"></div>
-                                            <div class="layer-content">
-                                            </div>
-                                        </div>
-                                        <img class="img-fluid jaz-equal-height-image" src="images/study_canada2.jpg" alt="study in canada">
-                                    </div>
-									
-									<br>
-                                    <div class="col-lg-6 ">
-                                        <div class="spacing-26">
-                                            <div class="service-title mb-30">
-                                                <div class="service-header">
-                                                    <h3 class="mb-0">Why Study in Australia?</h3>
-                                                </div>                                        
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="featured-icon-box icon-align-before-content icon-ver_align-top style7 bg-color-white">
-                                                       
-												<ul>
-														<li>
-															<strong>Academic Excellence: </strong> 
-                                                            Australian universities are renowned globally for their academic excellence. Whether you're interested in business, engineering, science, or any other field, you'll find top-notch programs and highly qualified professors.
-                                                        </li>
-														<br>
-														<li>
-															<strong>Diverse Range of Programs:</strong> 
-                                                            Canadian universities and colleges offer a wide variety of programs and courses, catering to different interests and career paths. Whether you're pursuing arts, sciences, engineering, business, or any other field, you'll find excellent options in Canada.
-														</li>
-														<br>
-                                                        <li>
-                                                        <strong>Affordability:</strong> Compared to other popular study destinations like the United States or the United Kingdom, the cost of education in Canada is relatively affordable. Tuition fees and living expenses are generally more reasonable, making it an attractive choice for many international students.
-                                                        </li>
-																		
-											    </ul>
-                                                       
-                                                    </div>
-                                                </div>
-                                               
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-									
-									
-									
-									 <div class="col-lg-6 mt-40">
-                                        <div class="spacing-26">
-                                            <div class="service-title mb-30">
-                                                <div class="service-header">
-                                                    <h3 class="mb-0">Visa Process for Canada</h3>
-                                                </div>                                        
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="featured-icon-box icon-align-before-content icon-ver_align-top style7 bg-color-white">
-                                                       
-														
-														<ul>
-														<li>
-															<strong>University Placement Assistance:</strong> Our experienced counsellors will guide you in choosing the right Canadian university or college based on your field of study, academic background, and career goals.
-															</li>
-															<br>
-															<li>
-															<strong>Application Support:</strong> We provide step-by-step assistance with the application process, ensuring that all required documents are submitted correctly and on time.
-															</li>
-														    <br>
-															<li>
-															<strong>Visa Guidance:</strong> Our team will assist you in understanding the visa requirements, preparing the necessary documentation, and guiding you through the application process.
-															</li>
-															
-															<br>
-															<li>
-															<strong>Pre-Departure Orientation:</strong> We provide comprehensive pre-departure orientation sessions to help you familiarize yourself with Canadian culture, academic expectations, and practical matters such as health insurance and banking.
-															</li>
-															
-														</ul>
-                                                       
-                                                    </div>
-                                                </div>
-                                               
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-									
-									 <div class="col-lg-6 mt-40">
-                                        <img class="img-fluid " src="images/study_canada3.jpg" alt="study in canada">
-                                    </div>
-									
-									 <div class="col-lg-6 mt-40">
-                                        <img class="img-fluid " src="images/study_canada4.jpg" alt="study in canada">
-                                    </div>
-									
-									 <div class="col-lg-6 mt-40">
-                                        <div class="spacing-26">
-                                            <div class="service-title mb-30">
-                                                <div class="service-header">
-                                                    <h3 class="mb-0">Why Choose Us?</h3>
-                                                </div>                                        
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="featured-icon-box icon-align-before-content icon-ver_align-top style7 bg-color-white">
-                                                       
-														
-														<ul>
-														<li>
-															<strong>Expertise:</strong> Our team of visa consultants have years of experience and are well-versed in the visa requirements of various countries. We stay up-to-date with the latest immigration regulations to provide accurate and reliable advice.
-															</li>
-															<br>
-															<li>
-															<strong>Efficiency:</strong> We strive to provide prompt and efficient service. With our assistance, you can avoid common pitfalls and spare yourself the frustration of dealing with complicated visa procedures.
-															</li>
-														    <br>
-															<li>
-															<strong>Personalized Service:</strong> We understand that each traveler's visa needs are unique. We offer personalized assistance tailored to your specific requirements, ensuring a hassle-free application process.
-															</li>
-															
-															<br>
-															<li>
-															<strong>Customer Satisfaction:</strong> Our top priority is customer satisfaction. We are committed to going above and beyond to meet your visa needs and ensure a smooth travel experience.
-															</li>
-															<br>
-															 <div class="header_btn">
-                                            <a class="jaz-btn jaz-btn-size-sm jaz-btn-shape-round jaz-btn-style-fill jaz-btn-color-skincolor" href="contact-us.html">Contact Us</a>
-                                        </div>
-														</ul>
-                                                     
-                                                    </div>
-													
-                                                </div>
-                                               
-                                                 
-                                            </div>
-                                        </div>
-                                    </div>
-									
-                                </div>
+                                </form>
                             </div>
-                        </div>
-						
-						
+                        </div>                        
                     </div>
                 </div>
             </section>
-            <!-- services01-first-section-end -->
+            <!-- contact-form-section-end -->
 
-        
+            <!-- contact-us-iconbox-section -->
+            <section class="jaz-row contact-us-iconbox-section clearfix">
+                <div class="container">
+                    <div class="row g-0 jaz-vertical_sep">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="featured-icon-box icon-align-top-content style19">
+                                <div class="featured-icon">
+                                    <div class="jaz-icon">
+                                        <i class="flaticon-phone-call"></i>
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3>call us on</h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <a href="tel:+9108427270700">+91-084272-70700</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="featured-icon-box icon-align-top-content style19">
+                                <div class="featured-icon">
+                                    <div class="jaz-icon">
+                                        <i class="flaticon-email"></i>
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3>Email</h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <a href="mailto:suresuccessgroup@gmail.com">suresuccessgroup@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="featured-icon-box icon-align-top-content style19">
+                                <div class="featured-icon">
+                                    <div class="jaz-icon">
+                                        <i class="flaticon-clock"></i>
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3>Opening hours</h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <span>Mon-Sat: 10.00 to 07.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="featured-icon-box icon-align-top-content style19">
+                                <div class="featured-icon">
+                                    <div class="jaz-icon">
+                                        <i class="flaticon-location"></i>
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3>Location</h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <span>SCO-141, First Floor, Sector 40C, Chandigarh, India</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				
+            </section>
+            <!-- contact-us-iconbox-section-end -->
+<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13717.417303928314!2d76.7345234!3d30.7365472!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee758fffffff%3A0x462c3e5fb527bbac!2sSure%20Success%20Education%20%26%20Immigration%20Consultants%20%7C%20Study%20Visa%20%7C%20Canada%20%7C%20Singapore%20%7C%20Uk%20%7C%20USA%20%7C!5e0!3m2!1sen!2sin!4v1691817878351!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				
+				</div>
+           
 
-       
-        </div><!--site-main end-->
+        </div><!-- site-main end-->
 
-         <!-- footer start -->
+               <!-- footer start -->
         <footer class="footer widget-footer clearfix">
             <div class="second-footer jaz-bgimage-yes bg-footer jaz-bg bg-base-dark">
                 <div class="jaz-row-wrapper-bg-layer jaz-bg-layer"></div>
