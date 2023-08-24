@@ -200,17 +200,27 @@
                                         <h2 class="title">Have be any question? <br>feel free to <span>Contact</span></h2>
                                     </div>
                                 </div><!-- section title end -->
-                                <form action="#" class="contact_form clearfix" method="post">
+
+                                <?php
+                                    if (isset($_GET['status'])) {
+                                        if ($_GET['status'] === 'success') {
+                                            echo '<p style="color: green;">Thank you for contacting us! Will contact you soon</p>';
+                                        } elseif ($_GET['status'] === 'error') {
+                                            echo '<p style="color: red;">Oops! Something went wrong. Please try again later.</p>';
+                                        }
+                                    }
+                                 ?>
+                                <form action="contact.php" class="contact_form clearfix" method="post">
                                     <div class="row">
                                         <div class="col-md-12">                  
-                                            <input name="name" type="text" value="" placeholder="Your Full Name" required="required">
+                                            <input name="name" type="text" name="name" value="" placeholder="Your Full Name" required="required">
                                         </div>
 
                                         <div class="col-md-12">
-                                            <input name="email" type="text" value="" placeholder="Email Address" required="required">
+                                            <input name="email" type="text" name="email" value="" placeholder="Email Address" required="required">
                                         </div>
                                         <div class="col-md-12">
-                                            <select id="selectbox">
+                                            <select id="selectbox" name="option">
                                                 <option value="sa">Study Abroad</option>
                                                 <option value="tv">Tourist Visa</option>
                                                 <option value="cs">Consultancy Services</option>
