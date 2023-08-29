@@ -4,18 +4,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = "Contact Us Form Submission";
     $name = $_POST["name"];
     $email = $_POST["email"];
-    $option = $_POST["option"];
-    $message = $_POST["message"];
+    $enquiry = $_POST["enquiry"];
+    $phone = $_POST["phone"];
+    $country = $_POST["country"];
+    $ilets = $_POST["ilets"];
+    $refusal = $_POST["refusal"];
+
+
+
 
     $headers = "From: $email" . "\r\n" .
         "Reply-To: $email" . "\r\n" .
         "X-Mailer: PHP/" . phpversion();
 
-    if (mail($to, $subject, $option, $message, $headers)) {
-        header("Location: contact-us.html?status=success");
+    if (mail($to, $subject, $email, $phone, $enquiry, $country, $ilets, $refusal, $headers)) {
+        header("Location: query.html?status=success");
         exit();
     } else {
-        header("Location: contact-us.html?status=error");
+        header("Location: query.html?status=error");
         exit();
     }
 }
