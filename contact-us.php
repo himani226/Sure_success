@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="Sure Success, Immigration, Adventure, Travel, Holidays, Reservation, Company, Abroad, Canada, UK, USA, Australia">
+<meta name="keywords" content="HTML5 Template">
 <meta name="description" content="company, abroad traveling, adventure, book holidays, destinations, elementor, holidays, reservations, responsive, tours, travel agency, travel package, travels, trips management, holiday planner, holiday manager, holiday website, holiday bookings, travel agents, visa agents, travel agents theme, travel agency website theme, readymade theme for travel agents">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sure Success Education &amp; Immigration Consultants | Study Visa | Canada | Singapore | Uk | USA |</title>
@@ -152,7 +152,7 @@
         </header><!-- header end -->
 
         <!-- page-title -->
-        <div class="jaz-titlebar-wrapper jaz-bg service-img">
+        <div class="jaz-titlebar-wrapper jaz-bg">
             <div class="jaz-titlebar-wrapper-bg-layer jaz-bg-layer"></div>
             <div class="jaz-titlebar-wrapper-inner">
                 <div class="container">
@@ -160,7 +160,7 @@
                         <div class="col-lg-12">
                             <div class="jaz-page-title-row-heading">
                                 <div class="page-title-heading">
-                                    <h2 class="title">Tourist Visa</h2>
+                                    <h2 class="title">Contact Us</h2>
                                 </div>
                                 <div class="breadcrumb-wrapper">
                                     <i class="flaticon-home"></i>
@@ -168,9 +168,7 @@
                                         <a title="Homepage" href="index.html">Home</a>
                                     </span>
                                     <div class="jaz-sep"> - </div>
-                                    <span>Services</span>
-									<div class="jaz-sep"> - </div>
-                                    <span>Tourist Visa</span>
+                                    <span>Contact Us</span>
                                 </div>
                             </div>
                         </div>
@@ -183,243 +181,153 @@
         <!--site-main start-->
         <div class="site-main">
 
-            <!-- about-section -->
-            <section class="jaz-row service02-about-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 align-self-center ">
-                            <div class="bg-base-grey text-center text-lg-start res-991-pt-20">
-                                <div class="jaz_single_image-wrapper res-991-ml-20 res-991-mr-20">
-                                    <img class="img-fluid" src="images/tourist1.jpg" alt="Tourist">
-                                </div>
-                                
-                            </div>
-                        </div>
-                        <div class="col-lg-6 align-self-center">
-                            <div class="pl-15 res-1199-pl-0 res-991-mt-30">
-                                <!-- section title -->
-                                <div class="section-title">
-                                    <div class="title-header">
-                                    <h2 class="title">Travel to your Dream <span>Country</span> with <span> SSEIC</span> </h2>
-                                    </div>
-                                    <div class="title-desc">
-                                        <p>At Sure Success Education &amp; Immigration Consultant , we provide exceptional visa consulting services for tourists in various countries like Canada, Australia, Uk, USA and other European countries. Whether you are planning a vacation, a business trip, or an adventure abroad, our team of experienced consultants are here to assist you in obtaining the necessary visas to make your travel dreams a reality.</p>
-                                    </div>
-                                </div><!-- section title end -->                            
-                                <div class="row">
-                                    <div class="col-md-12 res-767-mb-30">
-                                        <div class="featured-icon-box icon-align-before-content icon-ver_align-top style7">
-                                            <div class="featured-icon">
-                                                <div class="jaz-icon jaz-icon_element-color-skincolor">
-                                                    <i class="flaticon-passport-8"></i>
-                                                </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h3>Visa Application Assistance</h3>
-                                                </div>
-                                                <div class="featured-desc">
-                                                    <p>Our consultants will guide you through the entire visa application process, ensuring that you have all the required documents and information to submit a successful application.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                   
-                                </div>
-                                
-                            </div>
-                        </div>
-						
-						<div class="row mt-40">
-						
-						<div class="col-md-6 res-767-mb-30">
-                                        <div class="featured-icon-box icon-align-before-content icon-ver_align-top style7">
-                                            <div class="featured-icon">
-                                                <div class="jaz-icon jaz-icon_element-color-skincolor">
-                                                    <i class="flaticon-process"></i>
-                                                </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h3>Document Verification</h3>
-                                                </div>
-                                                <div class="featured-desc">
-                                                    <p>We review your visa application documents and provide feedback to ensure accuracy and completeness, minimizing the risk of rejection or delays.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-						
-							<div class="col-md-6 res-767-mb-30">
-                                        <div class="featured-icon-box icon-align-before-content icon-ver_align-top style7">
-                                            <div class="featured-icon">
-                                                <div class="jaz-icon jaz-icon_element-color-skincolor">
-                                                    <i class="flaticon-instructor"></i>
-                                                </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h3>Interview Preparation</h3>
-                                                </div>
-                                                <div class="featured-desc">
-                                                    <p>Our team will provide you with valuable tips and guidance on how to prepare for your visa interview, helping you to confidently answer any questions that may be asked.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-						
-						<div class="col-md-6 res-767-mb-30 mt-40">
-                                        <div class="featured-icon-box icon-align-before-content icon-ver_align-top style7">
-                                            <div class="featured-icon">
-                                                <div class="jaz-icon jaz-icon_element-color-skincolor">
-                                                    <i class="flaticon-visa"></i>
-                                                </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h3>Visa Tracking</h3>
-                                                </div>
-                                                <div class="featured-desc">
-                                                    <p>We will keep you updated on its progress and provide any necessary assistance throughout the processing period.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-						
-							<div class="col-md-6 res-767-mb-30 mt-40">
-                                        <div class="featured-icon-box icon-align-before-content icon-ver_align-top style7">
-                                            <div class="featured-icon">
-                                                <div class="jaz-icon jaz-icon_element-color-skincolor">
-                                                    <i class="flaticon-debit-card"></i>
-                                                </div>
-                                            </div>
-                                            <div class="featured-content">
-                                                <div class="featured-title">
-                                                    <h3>Visa Fee Payment</h3>
-                                                </div>
-                                                <div class="featured-desc">
-                                                    <p>We assist in navigating the complex visa fee payment process, ensuring that all payments are made correctly and on time.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-							
-							
-						</div>
-						
-                    </div>
-                </div>
-            </section>
-            <!-- about-section-end -->
-
-          
-            <!-- testimonial-section -->
-            <section class="jaz-row padding_zero-section service02-testimonial-section clearfix">
+            <!-- contact-form-section -->
+            <section class="jaz-row padding_bottom_zero-section contact-us-contact-form-section clearfix">
                 <div class="container">
                     <div class="row g-0">
-                        <div class="col-lg-6 mb_80 res-991-mb-0">
-                            <div class="jaz-bg jaz-col-bgimage-yes jaz-col-bgcolor-yes jaz-left-span bg-base-dark spacing-2">
-                                <div class="jaz-col-wrapper-bg-layer jaz-bg-layer">
-                                    <div class="jaz-col-wrapper-bg-layer-inner"></div>
-                                </div>
-                                <div class="layer-content">
-                                    <!-- section title -->
-                                    <div class="section-title style2">
-                                        <div class="title-header">
-                                           
-                                            <h2 class="title">Why <span class="text-base-skin">Choose</span> Us?</h2>
-                                        </div>
-                                    </div><!-- section title end -->
-                                    <div class="row">
-                                                <div class="col-lg-12">
-                                                    <div class="featured-icon-box icon-align-before-content icon-ver_align-top style7 bg-color-white">
-                                                       
-														<h3>Few reason to choose our Tourist Visa Services</h3>
-														<ul>
-														<li>
-															<strong>Expertise:</strong> Our team of visa consultants have years of experience and are well-versed in the visa requirements of various countries. We stay up-to-date with the latest immigration regulations to provide accurate and reliable advice.
-															</li>
-															<br>
-															<li>
-															<strong>Efficiency:</strong> We strive to provide prompt and efficient service. With our assistance, you can avoid common pitfalls and spare yourself the frustration of dealing with complicated visa procedures.
-															</li>
-														    <br>
-															<li>
-															<strong>Personalized Service:</strong> We understand that each traveler's visa needs are unique. We offer personalized assistance tailored to your specific requirements, ensuring a hassle-free application process.
-															</li>
-															<li>
-															<strong>Customer Satisfaction:</strong> Our top priority is customer satisfaction. We are committed to going above and beyond to meet your visa needs and ensure a smooth travel experience.
-															</li>
-															
-														</ul>
-                                                       
-                                                    </div>
-                                                </div>
-                                               
-                                                
-                                            </div>
-                                </div>
+                        <div class="col-lg-6">
+                            <div class="col-bg-img-thirty-seven jaz-bg jaz-col-bgimage-yes col-bg-img-six">
+                                <div class="jaz-col-wrapper-bg-layer jaz-bg-layer"></div>
+                                <div class="layer-content"></div>                           
                             </div>
+                            <img class="img-fluid jaz-equal-height-image" src="images/bg-image/col-bgimage-37.png" alt="col-bgimage-37">
                         </div>
                         <div class="col-lg-6">
-                            <div class="col-bg-img-twenty-one jaz-bg jaz-col-bgimage-yes jaz-right-span">
-                                <div class="jaz-col-wrapper-bg-layer jaz-bg-layer"></div>
-                                <div class="layer-content"></div>
+                            <div class="bg-base-grey spacing-25">
+                                <!-- section title -->
+                                <div class="section-title style7">
+                                    <div class="title-header">
+                                        <h2 class="title">Have be any question? <br>feel free to <span>Contact</span></h2>
+                                    </div>
+                                </div><!-- section title end -->
+
+                                <?php
+                                    if (isset($_GET['status'])) {
+                                        if ($_GET['status'] === 'success') {
+                                            echo '<p style="color: green;">Thank you for contacting us! Will contact you soon</p>';
+                                        } elseif ($_GET['status'] === 'error') {
+                                            echo '<p style="color: red;">Oops! Something went wrong. Please try again later.</p>';
+                                        }
+                                    }
+                                 ?>
+                                <form action="contact.php" class="contact_form clearfix" method="post">
+                                    <div class="row">
+                                        <div class="col-md-12">                  
+                                            <input name="name" type="text" name="name" value="" placeholder="Your Full Name" required="required">
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <input name="email" type="text" name="email" value="" placeholder="Email Address" required="required">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <select id="selectbox" name="option">
+                                                <option value="sa">Study Abroad</option>
+                                                <option value="tv">Tourist Visa</option>
+                                                <option value="cs">Consultancy Services</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <textarea name="message" rows="4" placeholder="Your Message" required="required"></textarea>
+                                        </div>
+                                        <div class="mt-5">
+                                            <button class="submit jaz-btn jaz-btn-size-md jaz-btn-shape-round jaz-btn-style-fill jaz-btn-color-skincolor" type="submit" value="submit">Submit Here</button> 
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                            <img class="img-fluid jaz-equal-height-image" src="images/tourist2.jpg" alt="Tourist">
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </section>
-            <!-- testimonial-section-end -->
+            <!-- contact-form-section-end -->
 
-            <!-- inquiry-section -->
-            <section class="jaz-row padding_zero-section service02-inquiry-section bg-base-skin clearfix">
+            <!-- contact-us-iconbox-section -->
+            <section class="jaz-row contact-us-iconbox-section clearfix">
                 <div class="container">
-                    <div class="row jaz-vertical_sep">
-                        <div class="col-md-6">
-                            <div class="featured-icon-box style8">
+                    <div class="row g-0 jaz-vertical_sep">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="featured-icon-box icon-align-top-content style19">
                                 <div class="featured-icon">
                                     <div class="jaz-icon">
-                                        <i class="flaticon-travel-agency"></i>
+                                        <i class="flaticon-phone-call"></i>
                                     </div>
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3>Contact a Representative</h3>
+                                        <h3>call us on</h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>We have helped students, business persons, tourists, clients with needs visas.</p>
+                                        <a href="tel:+9108427270700">+91-084272-70700</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="featured-icon-box style8 pl-30 res-767-pl-0">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="featured-icon-box icon-align-top-content style19">
                                 <div class="featured-icon">
                                     <div class="jaz-icon">
-                                        <i class="flaticon-call"></i>
+                                        <i class="flaticon-email"></i>
                                     </div>
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3>Call Us Any Question ?</h3>
+                                        <h3>Email</h3>
                                     </div>
                                     <div class="featured-desc">
-                                        <p>Besides, we also provide counseling services for immigration.</p>
+                                        <a href="mailto:suresuccessgroup@gmail.com">suresuccessgroup@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="featured-icon-box icon-align-top-content style19">
+                                <div class="featured-icon">
+                                    <div class="jaz-icon">
+                                        <i class="flaticon-clock"></i>
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3>Opening hours</h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <span>Mon-Sat: 10.00 to 07.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="featured-icon-box icon-align-top-content style19">
+                                <div class="featured-icon">
+                                    <div class="jaz-icon">
+                                        <i class="flaticon-location"></i>
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <div class="featured-title">
+                                        <h3>Location</h3>
+                                    </div>
+                                    <div class="featured-desc">
+                                        <span>SCO-141, First Floor, Sector 40C, Chandigarh, India</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+				
             </section>
-            <!-- inquiry-section-end -->
+            <!-- contact-us-iconbox-section-end -->
+<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13717.417303928314!2d76.7345234!3d30.7365472!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee758fffffff%3A0x462c3e5fb527bbac!2sSure%20Success%20Education%20%26%20Immigration%20Consultants%20%7C%20Study%20Visa%20%7C%20Canada%20%7C%20Singapore%20%7C%20Uk%20%7C%20USA%20%7C!5e0!3m2!1sen!2sin!4v1691817878351!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				
+				</div>
+           
 
-          
         </div><!-- site-main end-->
 
-                 <!-- footer start -->
+               <!-- footer start -->
         <footer class="footer widget-footer clearfix">
             <div class="second-footer jaz-bgimage-yes bg-footer jaz-bg bg-base-dark">
                 <div class="jaz-row-wrapper-bg-layer jaz-bg-layer"></div>
@@ -432,12 +340,12 @@
                                         <h3>Quick Links</h3>
                                     </div>
                                     <ul class="menu-footer-quick-links">
-                                        <!-- <li><a href="services-2.html"><i class="fa fa-plus"></i>Study Abroad</a></li> -->
-                                        <li><a href="about_sseic.html"><i class="fa fa-plus"></i>About SSIEC</a></li>
-                                        <li><a href="tourist_visa.html"><i class="fa fa-plus"></i>Tourist Visa</a></li>
-                                        <li><a href="success_stories.html"><i class="fa fa-plus"></i>Success Story</a></li>
-                                        <li class="last-link"><a href="services-1.html"><i class="fa fa-plus"></i>Consultancy </a></li>
-                                        <li class="last-link"><a href="gallery.html"><i class="fa fa-plus"></i>Gallery</a></li>
+                                        <li><a href="services-2.html"><i class="fa fa-plus"></i>Study Abroad</a></li>
+                                        <li><a href="services-1.html"><i class="fa fa-plus"></i>About SSIEC</a></li>
+                                        <li><a href="services-2.html"><i class="fa fa-plus"></i>Tourist Visa</a></li>
+                                        <li><a href="services-1.html"><i class="fa fa-plus"></i>Success Story</a></li>
+                                        <li class="last-link"><a href="services-2.html"><i class="fa fa-plus"></i>Consultancy </a></li>
+                                        <li class="last-link"><a href="services-1.html"><i class="fa fa-plus"></i>Gallery</a></li>
                                     </ul>
                                 </div>
                                 <div class="widget_social">
@@ -447,13 +355,14 @@
                                                 <a class="jaz-social-instagram" href="https://www.instagram.com/theme_tech_mount/" aria-label="instagram"><i class="icon-instagram"></i></a>
                                             </li>
                                             <li>
-                                                <a class="jaz-social-facebook" href="https://www.facebook.com/suresuccesseducationimmigration/" rel="noopener" aria-label="facebook"><i class="icon-facebook"></i></a>
+                                                <a class="jaz-social-facebook" href="https://www.facebook.com/themetechMount18" rel="noopener" aria-label="facebook"><i class="icon-facebook"></i></a>
                                             </li>
-                                            <!-- <li>
-                                                <a class="jaz-social-twitter" href="https://twitter.com/themetechmount" rel="noopener" aria-label="twitter"><i class="icon-twitter"></i></a>
-                                            </li> -->
                                             <li>
-                                                <a class="jaz-social-linkedin" href="https://www.linkedin.com/company/sure-success-education-immigration-consultants/" rel="noopener" aria-label="google"><i class="icon-linkedin"></i></a>
+                                                <a class="jaz-social-twitter" href="https://twitter.com/themetechmount" rel="noopener" aria-label="twitter"><i class="icon-twitter"></i></a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a class="jaz-social-linkedin" href="https://www.linkedin.com/company/themetech-mount/" rel="noopener" aria-label="google"><i class="icon-linkedin"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -468,13 +377,12 @@
                                     </div>
                                     <p style="padding-right:60px">Sure Success Education &amp; Immigration Consultant is a reputable and well established company in the field of study abroad and Other immigration services.</p>
                                     <div class="jaz-advertiser">
-                                        <a href="australia.html"><img src="images/flag-1.png" alt="australia"></a>
-                                        <a href="uk.html"><img src="images/flag-2.png" alt="uk"></a>
-                                        <a href="canada.html"><img src="images/flag-3.png" alt="canada"></a>
-                                        <a href="usa.html"><img src="images/flag-4.png" alt="usa"></a>
-                                        <a href="singapore.html"><img src="images/flag-4.png" alt="singapore"></a>
+                                        <a href="australia.html"><img src="images/flag-1.png" alt="image"></a>
+                                        <a href="united-kingdom.html"><img src="images/flag-2.png" alt="image"></a>
+                                        <a href="russia.html"><img src="images/flag-3.png" alt="image"></a>
+                                        <a href="france.html"><img src="images/flag-4.png" alt="image"></a>
                                     </div>
-                                </div>
+                                                     </div>
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-6 col-md-6 widget-area">

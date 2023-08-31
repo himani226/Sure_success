@@ -425,7 +425,7 @@
     margin-right: -302px;
 }
 .col-bg-img-thirty-seven.jaz-col-bgimage-yes > .jaz-col-wrapper-bg-layer {   
-    background-image: url(../images/bg-image/col-bgimage-37.png);
+    background-image: url("../images/contact.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
