@@ -2041,13 +2041,34 @@ nav.main-menu ul.menu > li.mega-menu-item:hover > a {
     background-image: url(../images/pagetitle-bg.jpg);
 }
 .jaz-titlebar-wrapper.about-img {
-    background-image: url(../images/pagetitle-bg-about.jpg);
+    background-image: url(../images/title-about.jpg);
 }
+
+.jaz-titlebar-wrapper.mission-img{
+    background-image: url(../images/title-mission.jpg);
+	
+}
+
+.jaz-titlebar-wrapper.cons-img{
+    background-image: url(../images/title-consultancy.jpg);
+}
+.jaz-titlebar-wrapper.tour-img{
+    background-image: url(../images/title-tourist.jpg);
+	
+}	
+
+.jaz-titlebar-wrapper.story-img{
+    background-image: url(../images/title-story.jpg);
+	
+}	
+	
+
+	
 .jaz-titlebar-wrapper.service-img {
     background-image: url(../images/pagetitle-bg-services.jpg);
 }
 .jaz-titlebar-wrapper.team-img {
-    background-image: url(../images/pagetitle-bg-team.jpg);
+    background-image: url(../images/title-about.jpg);
 }
 .jaz-titlebar-wrapper.country-img {
     background-image: url(../images/pagetitle-bg-country.jpg);

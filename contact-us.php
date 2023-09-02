@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="keywords" content="HTML5 Template">
-<meta name="description" content="company, abroad traveling, adventure, book holidays, destinations, elementor, holidays, reservations, responsive, tours, travel agency, travel package, travels, trips management, holiday planner, holiday manager, holiday website, holiday bookings, travel agents, visa agents, travel agents theme, travel agency website theme, readymade theme for travel agents">
+<meta name="description" content="Get expert visa assistance, work permit advice, and more from Sure Success, your trusted immigration consultants.">
+  <meta name="keywords" content="Immigration Consultant, Visa Assistance, Work Permit, Student Visa, Spouse Visa, Green Card, Sure Success">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sure Success Education &amp; Immigration Consultants | Study Visa | Canada | Singapore | Uk | USA |</title>
 
@@ -93,7 +93,7 @@
                                     <nav class="main-menu menu-mobile" id="menu">
                                         <ul class="menu">
                                             <li class="mega-menu-item active">
-                                                <a href="index.html">Home</a>
+                                                <a href="#">Home</a>
                                                
                                             </li>
                                             <li class="mega-menu-item">
@@ -131,7 +131,7 @@
                                                 <a href="gallery.html">Gallery</a>
                                             </li>
                                             <li class="mega-menu-item">
-                                                <a href="contact-us.html">Contact Us</a>
+                                                <a href="contact-us.html">Contact us</a>
                                             </li>
                                         </ul>
                                     </nav><!-- menu end -->
@@ -327,7 +327,7 @@
 
         </div><!-- site-main end-->
 
-               <!-- footer start -->
+            <!-- footer start -->
         <footer class="footer widget-footer clearfix">
             <div class="second-footer jaz-bgimage-yes bg-footer jaz-bg bg-base-dark">
                 <div class="jaz-row-wrapper-bg-layer jaz-bg-layer"></div>
@@ -340,12 +340,12 @@
                                         <h3>Quick Links</h3>
                                     </div>
                                     <ul class="menu-footer-quick-links">
-                                        <li><a href="services-2.html"><i class="fa fa-plus"></i>Study Abroad</a></li>
-                                        <li><a href="services-1.html"><i class="fa fa-plus"></i>About SSIEC</a></li>
-                                        <li><a href="services-2.html"><i class="fa fa-plus"></i>Tourist Visa</a></li>
-                                        <li><a href="services-1.html"><i class="fa fa-plus"></i>Success Story</a></li>
-                                        <li class="last-link"><a href="services-2.html"><i class="fa fa-plus"></i>Consultancy </a></li>
-                                        <li class="last-link"><a href="services-1.html"><i class="fa fa-plus"></i>Gallery</a></li>
+                    
+                                        <li><a href="about_sseic.html"><i class="fa fa-plus"></i>About SSIEC</a></li>
+                                        <li><a href="tourist_visa.html"><i class="fa fa-plus"></i>Tourist Visa</a></li>
+                                        <li><a href="success_stories.html"><i class="fa fa-plus"></i>Success Story</a></li>
+                                        <li class="last-link"><a href="consultancy_services.html"><i class="fa fa-plus"></i>Consultancy </a></li>
+                                        <li class="last-link"><a href="gallery.html"><i class="fa fa-plus"></i>Gallery</a></li>
                                     </ul>
                                 </div>
                                 <div class="widget_social">
@@ -355,14 +355,14 @@
                                                 <a class="jaz-social-instagram" href="https://www.instagram.com/theme_tech_mount/" aria-label="instagram"><i class="icon-instagram"></i></a>
                                             </li>
                                             <li>
-                                                <a class="jaz-social-facebook" href="https://www.facebook.com/themetechMount18" rel="noopener" aria-label="facebook"><i class="icon-facebook"></i></a>
+                                                <a class="jaz-social-facebook" href="https://www.facebook.com/suresuccesseducationimmigration/" rel="noopener" aria-label="facebook"><i class="icon-facebook"></i></a>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <a class="jaz-social-twitter" href="https://twitter.com/themetechmount" rel="noopener" aria-label="twitter"><i class="icon-twitter"></i></a>
-                                            </li>
+                                            </li> -->
                                             
                                             <li>
-                                                <a class="jaz-social-linkedin" href="https://www.linkedin.com/company/themetech-mount/" rel="noopener" aria-label="google"><i class="icon-linkedin"></i></a>
+                                                <a class="jaz-social-linkedin" href="https://www.linkedin.com/company/sure-success-education-immigration-consultants/" rel="noopener" aria-label="google"><i class="icon-linkedin"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -377,10 +377,11 @@
                                     </div>
                                     <p style="padding-right:60px">Sure Success Education &amp; Immigration Consultant is a reputable and well established company in the field of study abroad and Other immigration services.</p>
                                     <div class="jaz-advertiser">
-                                        <a href="australia.html"><img src="images/flag-1.png" alt="image"></a>
-                                        <a href="united-kingdom.html"><img src="images/flag-2.png" alt="image"></a>
-                                        <a href="russia.html"><img src="images/flag-3.png" alt="image"></a>
-                                        <a href="france.html"><img src="images/flag-4.png" alt="image"></a>
+                                        <a href="australia.html"><img src="images/flag-1.png" alt="australia"></a>
+                                        <a href="uk.html"><img src="images/flag-2.png" alt="united-kingdom"></a>
+                                        <a href="usa.html"><img src="images/flag-3.png" alt="usa"></a>
+                                        <a href="singapore.html"><img src="images/flag-4.png" alt="singapore"></a>
+                                        <a href="canada.html"><img src="images/flag-4.png" alt="canada"></a>
                                     </div>
                                                      </div>
                             </div>
@@ -392,10 +393,12 @@
                                         <h3>Get In Touch</h3>
                                     </div>
                                     <div class="res-767-pb-18">
-										<p><strong>Sure Success Education & Immigration Consultants</strong></p>
-                                        <p>SCO-141, First Floor, Sector 40C, <br>Chandigarh, India</p>
-                                        <p>Mobile<strong><a href="tel:+9108427270700">+91-084272-70700</a></strong></p>
-                                        <p>Email: <strong><a href="mailto:suresuccessgroup@gmail.com">suresuccessgroup@gmail.com</a></strong></p>
+										<h5>Sure Success Education <br>& Immigration Consultants</h5>
+										 <p> <span> <strong><i class="flaticon-location"></i></strong> </span>&nbsp;&nbsp;
+										  SCO-141, First Floor, Sector 40C, Chandigarh</p>
+                                        <p><span> <strong><i class="flaticon-phone-call"></i></span>&nbsp;&nbsp;
+											<a href="tel:+9108427270700">+91-084272-70700</a></strong></p>
+                                        <p><span> <strong><i class="flaticon-email-1"></i></span>&nbsp;&nbsp;<a href="mailto:suresuccessgroup@gmail.com">suresuccessgroup@gmail.com</a></strong></p>
                                        
                                     </div>                                        
                                 </div>
